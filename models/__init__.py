@@ -31,6 +31,7 @@ from models.associations import product_tag_association  # noqa: F401
 from models.order import Order  # noqa: F401
 from models.order_item import OrderItem  # noqa: F401
 from models.review import Review  # noqa: F401
+from models.wishlist import Wishlist  # noqa: F401
 
 # `__all__` documents the public API of this package (optional but tidy).
 __all__ = [
@@ -43,4 +44,5 @@ __all__ = [
     "Order",
     "OrderItem",
     "Review",
+    "Wishlist",
 ]
